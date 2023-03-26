@@ -1,0 +1,38 @@
+@media screen and (max-width:624px) {
+    .about-img img{
+        display: none;
+    }
+
+}
+@media screen and (max-width:488px){
+    .icon i{
+        display: block;
+    }
+    #listItem{
+        flex-direction: column;
+        position: absolute;
+        background: rgb(147, 113, 113);
+        height: 200px;
+        width: 100vw;
+        top: 58px;
+        display: none;
+    }
+
+    #listItem li{
+        margin: 20px;
+        
+    }
+    section{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .hero-img img{
+        width: 250px;
+    }
+}
+
